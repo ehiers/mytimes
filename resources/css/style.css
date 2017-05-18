@@ -41,6 +41,8 @@ a {
 }
 .column.large{
   width: 630px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .column.medium {
   width: 300px;
@@ -78,4 +80,14 @@ h3 {
   font-size: 30px;
   color: white;
   text-decoration: none;
+}
+
+#story3,
+#story2,
+#burger,
+#orca {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 300px;
 }

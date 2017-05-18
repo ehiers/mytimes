@@ -1,3 +1,4 @@
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,6 +32,7 @@ a {
   border: 1px solid black;
   flex-direction: row;
   justify-content: space-between;
+  text-decoration: none;
 }
 .column {
   display:inline-flex;
@@ -49,4 +51,31 @@ a {
 
 section {
   border: 1px solid blue;
+}
+
+.imageHL {
+  display: flex;
+  height: 300px;
+}
+#mainstory {
+  background-image: url("./img-story-main.png");
+}
+#mainstory h3 {
+  font-size: 40px;
+}
+#story1 {
+  background-image: url("./img-story-1.png");
+}
+#story2 {
+  background-image: url("./img-story-2.png");
+}
+#story3 {
+  background-image: url("./img-story-3.png");
+}
+h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
